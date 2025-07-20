@@ -17,7 +17,11 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Install dependencies
+# 在安装依赖后添加以下内容
 pip install -r requirements.txt
+
+# 安装当前项目为包
+pip install -e .
 
 # Create config directory
 # 新增配置目录创建和权限设置
