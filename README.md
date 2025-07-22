@@ -1,8 +1,8 @@
 # iot-sub-svc
-## 软件开发需求
-使用python开发一个运行在linux上的服务，用于订阅指定MQTT服务器特定主题的MQTT消息，并将消息内容存储在数据库内。
+## About
+iot-sub-svc是一个使用python开发的，运行在linux上的服务，用于订阅指定MQTT服务器特定主题的MQTT消息，并将消息内容存储在数据库内。
 
-## 具体需求
+## Development Requirements
 1. 本项目git地址为：https://github.com/KroneCai/iot-sub-svc.git
 2. 为项目创建python虚拟环境，项目地址为：/srv/iot-sub-svc/
 3. 使用linux systemd管理本项目的订阅服务

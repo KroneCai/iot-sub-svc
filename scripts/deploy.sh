@@ -17,14 +17,9 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Install dependencies
-# 在安装依赖后添加以下内容
 pip install -r requirements.txt
 
-# 安装当前项目为包
-pip install -e .
-
 # Create config directory
-# 新增配置目录创建和权限设置
 sudo mkdir -p /etc/iot-sub-svc/
 sudo cp $PROJECT_DIR/iot-sub-svc.conf /etc/iot-sub-svc/
 sudo chown root:root /etc/iot-sub-svc/iot-sub-svc.conf
